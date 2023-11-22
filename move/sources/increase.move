@@ -1,14 +1,14 @@
-module counter_addr::increase {
+module increase_add::increase {
     use std::signer;
     
     #[test_only]
     use aptos_framework::account;
 
-    const E_NOT_INITIALIZED: u64 = 1;
-
     struct Count has key {
         count: u64
     }
+
+  // for intializing counter variable for the specific smart contract
 
     public entry fun createcounter(account: &signer) {
         let addr = signer::address_of(account);
@@ -18,12 +18,25 @@ module counter_addr::increase {
         }
     }
 
+ /* public entry fun create_list(account: &signer){
+  let tasks_holder = TodoList {
+    tasks: table::new(),
+    set_task_event: account::new_event_handle<Task>(account),
+    task_counter: 0
+  };
+  // move the TodoList resource under the signer account
+  move_to(account, tasks_holder);
+}*/
+
+   const E_NOT_INITIALIZED: u64 = 1;
+
+// function for raising the counter value 
     public entry fun raise_c(account: &signer) acquires Count {
-        let signer_address = signer::address_of(account);
-        assert!(exists<Count>(signer_address), E_NOT_INITIALIZED);
-        let countvar = borrow_global_mut<Count>(signer_address);
-        let counter = countvar.count + 1;
-        countvar.count = counter;
+        let signer_add = signer::address_of(account);
+        assert!(exists<Count>(signer_add), E_NOT_INITIALIZED);
+        let number_p = borrow_global_mut<Count>(signer_add);
+        let counter = number_p.count + 1;
+            number_p.count = counter;
     }
 
     #[test(admin = @0x123)]
@@ -32,4 +45,5 @@ module counter_addr::increase {
         createcounter(&admin);
         raise_c(&admin);
     }
+    
 }

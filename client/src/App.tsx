@@ -8,7 +8,7 @@ import { Network, Provider } from "aptos";
 
 export const provider = new Provider(Network.TESTNET);
 // change this to be your module account address
-export const moduleAddress = "0x314f0fd85ba3a6ea5acad609695ed83ae3ea2dfe565410d507a8fd743aab7c88";
+export const moduleAddress = "0xeb82587faa0e7ba632c4c0ffd640c6821c42a4fa632b7a1061a6d7357bc27e53";
 
 function App() {
   const { account, signAndSubmitTransaction } = useWallet();
@@ -40,7 +40,7 @@ function App() {
     // build a transaction payload to be submited
     const payload = {
       type: "entry_function_payload",
-      function: `${moduleAddress}::increase::create_c`,
+      function: `${moduleAddress}::increase::createcounter`,
       type_arguments: [],
       arguments: [],
     };
