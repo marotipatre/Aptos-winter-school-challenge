@@ -1,0 +1,9 @@
+[package]
+name = 'my_todo_list'
+version = '1.0.0'
+[dependencies.AptosFramework]
+git = 'https://github.com/aptos-labs/aptos-core.git'
+rev = 'main'
+subdir = 'aptos-move/framework/aptos-framework'
+[addresses]
+counter_addr='314f0fd85ba3a6ea5acad609695ed83ae3ea2dfe565410d507a8fd743aab7c88'
