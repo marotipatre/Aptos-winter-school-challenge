@@ -114,28 +114,41 @@ function App() {
         <Spin spinning={transactionInProgress}>
           <Row style={{ display: "flex", justifyContent: "center", marginTop: "2rem" }}>
             <Col>
+            <div
+                style={{
+                  position: "relative",
+                  width: "200px",
+                  height: "200px",
+                  overflow: "hidden",
+                }}
+              >
               <Button
                 disabled={!account}
                 block
                 onClick={raise_cCounter}
                 type="primary"
                 style={{
-                  margin: "0 auto",
-                  borderRadius: "10px",  
-                  height: "100%",
-                  width: "100%",
-                  backgroundImage: isHovered ? "linear-gradient(to right, #3498db, #2ecc71)" : "linear-gradient(to right, #2c3e50, #34495e)",  
+                  position: "absolute",
+                  top: "50%",
+                  left: "50%",
+                  transform: "translate(-50%, -50%)",
+                  borderRadius: "50%",  // Circular shape
+                  width: "200px",
+                  height: "200px",
+                  backgroundColor: isHovered ? "#34495e" : "#2c3e50",  // Change color on hover
                   display: "flex",
                   flexDirection: "column",
                   justifyContent: "center",
                   alignItems: "center",
                   transition: "background-color 0.3s ease-in-out"
                 }}
+                
                 onMouseOver={() => setIsHovered(true)}
                 onMouseOut={() => setIsHovered(false)}
               >
                 <p style={{ fontSize: "20px", color: "#ffff" }}>Increase your count!</p>
               </Button>
+              </div>
             </Col>
           </Row>
           <Row>
@@ -147,6 +160,8 @@ function App() {
       </div>
       <div style={{ position: "absolute", top: "70%", left: "40%"}}>
         <p>
+          <br />
+          <br />
           <b>Steps to Play the game</b>
           
           <li>1. Install petra wallet.</li>
