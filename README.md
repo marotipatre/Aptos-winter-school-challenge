@@ -38,11 +38,12 @@ The UI of the game has these parts:
 ### Installation
 - [Clone the repo](https://github.com/marotipatre/Aptos-winter-school-challenge.git) in your local machine using git command : `git clone https://github.com/marotipatre/Aptos-winter-school-challenge.git`
 
-- In the root directory, install all the dependencies of the by running the command:
-    ### `npm install`
 
 - change directory to `client` by running following command (it will take you in frontend directory) 
   ### `cd client`
+
+- In the directory, install all the dependencies of the by running the command:
+    ### `npm install`
 
 - Run the react application by 
     ### `npm start`
