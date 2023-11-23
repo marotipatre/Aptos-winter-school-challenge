@@ -1,6 +1,6 @@
 # Fun click - Aptos winter school <img src="client/public/logo.png"  width="30" height="30">
 
-### Fullstack decentralised application game which uses Petra Wallet for interaction with Aptos blockchain.
+### Fullstack decentralised application game which uses Petra Wallet for interaction with Aptos blockchain.Fund your wallet by testnet coins and play !
 
 ## Table of Contents
 
@@ -26,6 +26,8 @@ The UI of the game has these parts:
 
 ## 👩🏻‍💻 Getting Started
 - Project is deployed on [vercel](https://aptos-winter-school-challenge-r374.vercel.app),users can directly interact with the project just by installing [petra wallet extension](https://chromewebstore.google.com/detail/petra-aptos-wallet/ejjladinnckdgjemekebdpeokbikhfci?pli=1) to the browser.
+
+- Note :- Don't forget to fund your petra wallet using faucet button available in your wallet.
 
 - If you want to run it on your local server,please follow below steps --
 ### Prerequisites
