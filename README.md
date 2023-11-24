@@ -4,13 +4,13 @@
 
 ## Table of Contents
 
-- [About the Challenge](#about-the-challenge-🌟)
-- [Getting Started](#👩🏻‍💻-getting-started)
+- [About the Challenge 🌟](#about-the-challenge-🌟)
+- [👩🏻‍💻 Getting Started](#👩🏻‍💻-getting-started)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
-- [How to play](#🎮-how-to-play)
-- [Tech stack](#tech-stack-used)
-- [Smart Contract](#smart-contract-🗒️)
+- [🎮 How to play](#🎮-how-to-play)
+- [Tech stack Used </>](#tech-stack-used)
+- [Smart contract 🗒️](#smart-contract-🗒️)
 - [License](#license)
 - [Aptos Explorer link](https://explorer.aptoslabs.com/account/0xeb82587faa0e7ba632c4c0ffd640c6821c42a4fa632b7a1061a6d7357bc27e53/transactions?network=testnet)
 - [Demo Video Link](https://drive.google.com/file/d/1eGtCLgsQPEZ5SmgmQDR260EfHTUyXkaW/view?usp=drive_link)
