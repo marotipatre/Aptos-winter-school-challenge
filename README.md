@@ -4,8 +4,13 @@
 
 ## Table of Contents
 
+<<<<<<< HEAD
 - [About the Challenge 🌟](#about-the-challenge-🌟)
 - [👩🏻‍💻 Getting Started](#👩🏻‍💻-getting-started)
+=======
+- [About the Challenge](#about-the-challenge-🌟)
+- [Getting Started](#🧑‍💻-getting-started)
+>>>>>>> 13bd14458af8795c053bf914e46612755969bc2b
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
 - [🎮 How to play](#🎮-how-to-play)
@@ -24,7 +29,7 @@ The UI of the game has these parts:
 2. A button that a user can click
 3. A number, displayed prominently, which will show how many times the button has been clicked globally by user.
 
-## 👩🏻‍💻 Getting Started
+## 🧑‍💻 Getting Started
 - Project is deployed on [vercel](https://aptos-winter-school-challenge-r374.vercel.app),users can directly interact with the project just by installing [petra wallet extension](https://chromewebstore.google.com/detail/petra-aptos-wallet/ejjladinnckdgjemekebdpeokbikhfci?pli=1) to the browser.
 
 - Note :- Don't forget to fund your petra wallet using faucet button available in your wallet.
@@ -64,7 +69,7 @@ The UI of the game has these parts:
 
 ## Smart contract 🗒️
 - Contract Name : `increase.move`
-- Blockchain network : Aptos Nestnet network
+- Blockchain network : Aptos Testnet network
 - Deployed Module Address : 0xeb82587faa0e7ba632c4c0ffd640c6821c42a4fa632b7a1061a6d7357bc27e53
 - Aptos exlorer link :  [link](https://explorer.aptoslabs.com/account/0xeb82587faa0e7ba632c4c0ffd640c6821c42a4fa632b7a1061a6d7357bc27e53/transactions?network=testnet) 
 
