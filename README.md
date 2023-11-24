@@ -64,7 +64,7 @@ The UI of the game has these parts:
 
 ## Smart contract 🗒️
 - Contract Name : `increase.move`
-- Blockchain network : Aptos Nestnet network
+- Blockchain network : Aptos Testnet network
 - Deployed Module Address : 0xeb82587faa0e7ba632c4c0ffd640c6821c42a4fa632b7a1061a6d7357bc27e53
 - Aptos exlorer link :  [link](https://explorer.aptoslabs.com/account/0xeb82587faa0e7ba632c4c0ffd640c6821c42a4fa632b7a1061a6d7357bc27e53/transactions?network=testnet) 
 
