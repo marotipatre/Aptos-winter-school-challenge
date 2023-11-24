@@ -4,13 +4,11 @@
 
 ## Table of Contents
 
-<<<<<<< HEAD
 - [About the Challenge 🌟](#about-the-challenge-🌟)
 - [👩🏻‍💻 Getting Started](#👩🏻‍💻-getting-started)
-=======
 - [About the Challenge](#about-the-challenge-🌟)
 - [Getting Started](#🧑‍💻-getting-started)
->>>>>>> 13bd14458af8795c053bf914e46612755969bc2b
+
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
 - [🎮 How to play](#🎮-how-to-play)
