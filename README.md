@@ -5,7 +5,7 @@
 ## Table of Contents
 
 - [About the Challenge](#about-the-challenge-🌟)
-- [Getting Started](#👩🏻‍💻-getting-started)
+- [Getting Started](#🧑‍💻-getting-started)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
 - [How to play](#🎮-how-to-play)
@@ -24,7 +24,7 @@ The UI of the game has these parts:
 2. A button that a user can click
 3. A number, displayed prominently, which will show how many times the button has been clicked globally by user.
 
-## 👩🏻‍💻 Getting Started
+## 🧑‍💻 Getting Started
 - Project is deployed on [vercel](https://aptos-winter-school-challenge-r374.vercel.app),users can directly interact with the project just by installing [petra wallet extension](https://chromewebstore.google.com/detail/petra-aptos-wallet/ejjladinnckdgjemekebdpeokbikhfci?pli=1) to the browser.
 
 - Note :- Don't forget to fund your petra wallet using faucet button available in your wallet.
