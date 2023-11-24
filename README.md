@@ -5,8 +5,7 @@
 ## Table of Contents
 
 - [About the Challenge 🌟](#about-the-challenge-🌟)
-- [👩🏻‍💻 Getting Started](#👩🏻‍💻-getting-started)
-- [About the Challenge](#about-the-challenge-🌟)
+
 - [Getting Started](#🧑‍💻-getting-started)
 
   - [Prerequisites](#prerequisites)
